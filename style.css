@@ -49,7 +49,6 @@ nav button{
     color: black;
     padding: 10px 20px;
     border: none;
-    font-weight: 700;
     font-size: 16px;
 }
 main h1{
@@ -69,5 +68,20 @@ main span{
     font-family: 'Times New Roman';
 }
 main h1:nth-child(2){
-    margin-top: 60px;
+    margin-top: 30px;
+}
+main #left-img{
+    height: 500px;
+    position: absolute;
+    top: 14%;
+    height: 300px;
+    left: 7%;
+    border-radius: 30px;
+}
+main #right-img{
+    position: absolute;
+    top: 76%;
+    height: 300px;
+    right: 7%;
+    border-radius: 30px;
 }
