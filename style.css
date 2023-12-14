@@ -13,6 +13,7 @@ html{
 body{
     height: 100%;
     width: 100%;
+    background-color: black;
 }
 main{
     background-color: black;
@@ -52,7 +53,7 @@ nav button{
     font-size: 16px;
 }
 main h1{
-    font-size: 160px;
+    font-size: 150px;
     text-transform: uppercase;
     display: flex;
     text-align: center;
@@ -80,8 +81,15 @@ main #left-img{
 }
 main #right-img{
     position: absolute;
-    top: 76%;
+    top: 48%;
     height: 300px;
     right: 7%;
     border-radius: 30px;
+}
+h5{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 24px;
 }
