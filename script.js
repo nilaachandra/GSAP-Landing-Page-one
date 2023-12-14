@@ -11,6 +11,7 @@ tl.from('nav img, nav h3,nav button',{
 
 tl.from('main h1',{
     y: 100,
+    duration: 1,
     opacity: 0,
     stagger: 0.35
 })
